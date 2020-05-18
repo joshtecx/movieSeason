@@ -4,9 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="movieSeason.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Movie Season Randomizer</h1>
+    <form >
+        <label for="genre">Movie: </label>
+        <input type="text" id="movie"> <br>
+        <br>
+        <input id="submit" type="button" value="Randomize">
+    </form>
+    <div class="titleContainer">
+        <h2 id="title"></h2>
+    </div>
+     <div class="posterContainer">
+        <img id="poster" src="" alt="">
+     </div>
+    <div class="ratingContainer">
+        <h4 id="rating"></h4>
+    </div>
+    <div class="yearContainer">
+            <h4 id="year"></h4>
+    </div>
+    <div class="plotContainer">
+            <h4 id="plot"></h4>
+    </div>
+    <div class="genreContainer">
+            <h4 id="genre"></h4>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
